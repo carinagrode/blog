@@ -66,6 +66,11 @@ p,
     margin-bottom: 1.5em;
 }
 
+.content ul {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
 .container {
     margin: 0 auto;
     height: 100%;
