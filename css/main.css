@@ -30,13 +30,14 @@ h3 {
 h2, 
 h3,
 p,
-nav ul,
+main ul,
 img {
     margin-bottom: 1.5rem;
 }
 
-nav {
-    padding: 64px 0 34px 0;
+nav,
+main {
+    padding: 64px 0 0 0;
     flex: 1;
     margin: 0 auto;
     height: 100%;
@@ -44,7 +45,7 @@ nav {
     max-width: 1000px;
 }
 
-nav ul {
+main ul {
     list-style-position: inside;
 }
 
