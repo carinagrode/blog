@@ -30,31 +30,26 @@ h3 {
 h2, 
 h3,
 p,
-.content ul,
+nav ul,
 img {
     margin-bottom: 1.5rem;
 }
 
-.content ul {
-    list-style-position: inside;
-    padding-left: 20px;
-}
-
-.container {
+nav {
+    padding: 64px 0 34px 0;
+    flex: 1;
     margin: 0 auto;
     height: 100%;
     width: 50%;
     max-width: 1000px;
 }
 
-
-
-.content .container {
-    padding: 64px 0 34px 0;
+nav ul {
+    list-style-position: inside;
 }
 
-.content {
-    flex: 1;
+nav li {
+    list-style-type: none;
 }
 
 img {
