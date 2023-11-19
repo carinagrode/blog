@@ -15,6 +15,6 @@ function loadArticle(articleURL) {
     fetch(articleURL)
     .then(response => response.text())
     .then(articleContent => {
-        document.getElementById('content').innerHTML = articleContent;
+        document.getElementById('article-content').innerHTML = articleContent;
     });
 }
