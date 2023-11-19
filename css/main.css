@@ -40,33 +40,11 @@ img {
     margin-bottom: 72px;
 }
 
-.sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 72px;
-    left: 0;
-    background-color: white;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 1.1rem;
-    color: black;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: aquamarine;
-}
 
 main {
     flex: 1;
-    margin-left: 160px;
+    margin: 0 auto;
     padding: 20px;
     height: 100%;
     width: 50%;
@@ -76,8 +54,6 @@ main {
 main ul {
     list-style-position: inside;
 }
-
-
 
 img {
     width: 80%;
